@@ -1,0 +1,281 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@hono/hono@^4.6.13": "4.6.13",
+    "jsr:@std/assert@1": "1.0.9",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "npm:@hono/zod-openapi@~0.18.3": "0.18.3_hono@4.6.13_zod@3.23.8",
+    "npm:@scalar/hono-api-reference@~0.5.164": "0.5.164_hono@4.6.13",
+    "npm:oslo@^1.2.1": "1.2.1"
+  },
+  "jsr": {
+    "@hono/hono@4.6.13": {
+      "integrity": "198970fc6facf71a88ee57aa1ed32143b56bcb0f842fa965ca3ee7d6fdd21a8e"
+    },
+    "@std/assert@1.0.9": {
+      "integrity": "a9f0c611a869cc791b26f523eec54c7e187aab7932c2c8e8bea0622d13680dcd",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "npm": {
+    "@asteasolutions/zod-to-openapi@7.3.0_zod@3.23.8": {
+      "integrity": "sha512-7tE/r1gXwMIvGnXVUdIqUhCU1RevEFC4Jk6Bussa0fk1ecbnnINkZzj1EOAJyE/M3AI25DnHT/zKQL1/FPFi8Q==",
+      "dependencies": [
+        "openapi3-ts",
+        "zod"
+      ]
+    },
+    "@emnapi/core@0.45.0": {
+      "integrity": "sha512-DPWjcUDQkCeEM4VnljEOEcXdAD7pp8zSZsgOujk/LGIwCXWbXJngin+MO4zbH429lzeC3WbYLGjE2MaUOwzpyw==",
+      "dependencies": [
+        "tslib"
+      ]
+    },
+    "@emnapi/runtime@0.45.0": {
+      "integrity": "sha512-Txumi3td7J4A/xTTwlssKieHKTGl3j4A1tglBx72auZ49YK7ePY6XZricgIg9mnZT4xPfA+UPCUdnhRuEFDL+w==",
+      "dependencies": [
+        "tslib"
+      ]
+    },
+    "@hono/zod-openapi@0.18.3_hono@4.6.13_zod@3.23.8": {
+      "integrity": "sha512-bNlRDODnp7P9Fs13ZPajEOt13G0XwXKfKRHMEFCphQsFiD1Y+twzHaglpNAhNcflzR1DQwHY92ZS06b4LTPbIQ==",
+      "dependencies": [
+        "@asteasolutions/zod-to-openapi",
+        "@hono/zod-validator",
+        "hono",
+        "zod"
+      ]
+    },
+    "@hono/zod-validator@0.4.1_hono@4.6.13_zod@3.23.8": {
+      "integrity": "sha512-I8LyfeJfvVmC5hPjZ2Iij7RjexlgSBT7QJudZ4JvNPLxn0JQ3sqclz2zydlwISAnw21D2n4LQ0nfZdoiv9fQQA==",
+      "dependencies": [
+        "hono",
+        "zod"
+      ]
+    },
+    "@node-rs/argon2-android-arm-eabi@1.7.0": {
+      "integrity": "sha512-udDqkr5P9E+wYX1SZwAVPdyfYvaF4ry9Tm+R9LkfSHbzWH0uhU6zjIwNRp7m+n4gx691rk+lqqDAIP8RLKwbhg=="
+    },
+    "@node-rs/argon2-android-arm64@1.7.0": {
+      "integrity": "sha512-s9j/G30xKUx8WU50WIhF0fIl1EdhBGq0RQ06lEhZ0Gi0ap8lhqbE2Bn5h3/G2D1k0Dx+yjeVVNmt/xOQIRG38A=="
+    },
+    "@node-rs/argon2-darwin-arm64@1.7.0": {
+      "integrity": "sha512-ZIz4L6HGOB9U1kW23g+m7anGNuTZ0RuTw0vNp3o+2DWpb8u8rODq6A8tH4JRL79S+Co/Nq608m9uackN2pe0Rw=="
+    },
+    "@node-rs/argon2-darwin-x64@1.7.0": {
+      "integrity": "sha512-5oi/pxqVhODW/pj1+3zElMTn/YukQeywPHHYDbcAW3KsojFjKySfhcJMd1DjKTc+CHQI+4lOxZzSUzK7mI14Hw=="
+    },
+    "@node-rs/argon2-freebsd-x64@1.7.0": {
+      "integrity": "sha512-Ify08683hA4QVXYoIm5SUWOY5DPIT/CMB0CQT+IdxQAg/F+qp342+lUkeAtD5bvStQuCx/dFO3bnnzoe2clMhA=="
+    },
+    "@node-rs/argon2-linux-arm-gnueabihf@1.7.0": {
+      "integrity": "sha512-7DjDZ1h5AUHAtRNjD19RnQatbhL+uuxBASuuXIBu4/w6Dx8n7YPxwTP4MXfsvuRgKuMWiOb/Ub/HJ3kXVCXRkg=="
+    },
+    "@node-rs/argon2-linux-arm64-gnu@1.7.0": {
+      "integrity": "sha512-nJDoMP4Y3YcqGswE4DvP080w6O24RmnFEDnL0emdI8Nou17kNYBzP2546Nasx9GCyLzRcYQwZOUjrtUuQ+od2g=="
+    },
+    "@node-rs/argon2-linux-arm64-musl@1.7.0": {
+      "integrity": "sha512-BKWS8iVconhE3jrb9mj6t1J9vwUqQPpzCbUKxfTGJfc+kNL58F1SXHBoe2cDYGnHrFEHTY0YochzXoAfm4Dm/A=="
+    },
+    "@node-rs/argon2-linux-x64-gnu@1.7.0": {
+      "integrity": "sha512-EmgqZOlf4Jurk/szW1iTsVISx25bKksVC5uttJDUloTgsAgIGReCpUUO1R24pBhu9ESJa47iv8NSf3yAfGv6jQ=="
+    },
+    "@node-rs/argon2-linux-x64-musl@1.7.0": {
+      "integrity": "sha512-/o1efYCYIxjfuoRYyBTi2Iy+1iFfhqHCvvVsnjNSgO1xWiWrX0Rrt/xXW5Zsl7vS2Y+yu8PL8KFWRzZhaVxfKA=="
+    },
+    "@node-rs/argon2-wasm32-wasi@1.7.0": {
+      "integrity": "sha512-Evmk9VcxqnuwQftfAfYEr6YZYSPLzmKUsbFIMep5nTt9PT4XYRFAERj7wNYp+rOcBenF3X4xoB+LhwcOMTNE5w==",
+      "dependencies": [
+        "@emnapi/core",
+        "@emnapi/runtime",
+        "@tybys/wasm-util",
+        "memfs-browser"
+      ]
+    },
+    "@node-rs/argon2-win32-arm64-msvc@1.7.0": {
+      "integrity": "sha512-qgsU7T004COWWpSA0tppDqDxbPLgg8FaU09krIJ7FBl71Sz8SFO40h7fDIjfbTT5w7u6mcaINMQ5bSHu75PCaA=="
+    },
+    "@node-rs/argon2-win32-ia32-msvc@1.7.0": {
+      "integrity": "sha512-JGafwWYQ/HpZ3XSwP4adQ6W41pRvhcdXvpzIWtKvX+17+xEXAe2nmGWM6s27pVkg1iV2ZtoYLRDkOUoGqZkCcg=="
+    },
+    "@node-rs/argon2-win32-x64-msvc@1.7.0": {
+      "integrity": "sha512-9oq4ShyFakw8AG3mRls0AoCpxBFcimYx7+jvXeAf2OqKNO+mSA6eZ9z7KQeVCi0+SOEUYxMGf5UiGiDb9R6+9Q=="
+    },
+    "@node-rs/argon2@1.7.0": {
+      "integrity": "sha512-zfULc+/tmcWcxn+nHkbyY8vP3+MpEqKORbszt4UkpqZgBgDAAIYvuDN/zukfTgdmo6tmJKKVfzigZOPk4LlIog==",
+      "dependencies": [
+        "@node-rs/argon2-android-arm-eabi",
+        "@node-rs/argon2-android-arm64",
+        "@node-rs/argon2-darwin-arm64",
+        "@node-rs/argon2-darwin-x64",
+        "@node-rs/argon2-freebsd-x64",
+        "@node-rs/argon2-linux-arm-gnueabihf",
+        "@node-rs/argon2-linux-arm64-gnu",
+        "@node-rs/argon2-linux-arm64-musl",
+        "@node-rs/argon2-linux-x64-gnu",
+        "@node-rs/argon2-linux-x64-musl",
+        "@node-rs/argon2-wasm32-wasi",
+        "@node-rs/argon2-win32-arm64-msvc",
+        "@node-rs/argon2-win32-ia32-msvc",
+        "@node-rs/argon2-win32-x64-msvc"
+      ]
+    },
+    "@node-rs/bcrypt-android-arm-eabi@1.9.0": {
+      "integrity": "sha512-nOCFISGtnodGHNiLrG0WYLWr81qQzZKYfmwHc7muUeq+KY0sQXyHOwZk9OuNQAWv/lnntmtbwkwT0QNEmOyLvA=="
+    },
+    "@node-rs/bcrypt-android-arm64@1.9.0": {
+      "integrity": "sha512-+ZrIAtigVmjYkqZQTThHVlz0+TG6D+GDHWhVKvR2DifjtqJ0i+mb9gjo++hN+fWEQdWNGxKCiBBjwgT4EcXd6A=="
+    },
+    "@node-rs/bcrypt-darwin-arm64@1.9.0": {
+      "integrity": "sha512-CQiS+F9Pa0XozvkXR1g7uXE9QvBOPOplDg0iCCPRYTN9PqA5qYxhwe48G3o+v2UeQceNRrbnEtWuANm7JRqIhw=="
+    },
+    "@node-rs/bcrypt-darwin-x64@1.9.0": {
+      "integrity": "sha512-4pTKGawYd7sNEjdJ7R/R67uwQH1VvwPZ0SSUMmeNHbxD5QlwAPXdDH11q22uzVXsvNFZ6nGQBg8No5OUGpx6Ug=="
+    },
+    "@node-rs/bcrypt-freebsd-x64@1.9.0": {
+      "integrity": "sha512-UmWzySX4BJhT/B8xmTru6iFif3h0Rpx3TqxRLCcbgmH43r7k5/9QuhpiyzpvKGpKHJCFNm4F3rC2wghvw5FCIg=="
+    },
+    "@node-rs/bcrypt-linux-arm-gnueabihf@1.9.0": {
+      "integrity": "sha512-8qoX4PgBND2cVwsbajoAWo3NwdfJPEXgpCsZQZURz42oMjbGyhhSYbovBCskGU3EBLoC8RA2B1jFWooeYVn5BA=="
+    },
+    "@node-rs/bcrypt-linux-arm64-gnu@1.9.0": {
+      "integrity": "sha512-TuAC6kx0SbcIA4mSEWPi+OCcDjTQUMl213v5gMNlttF+D4ieIZx6pPDGTaMO6M2PDHTeCG0CBzZl0Lu+9b0c7Q=="
+    },
+    "@node-rs/bcrypt-linux-arm64-musl@1.9.0": {
+      "integrity": "sha512-/sIvKDABOI8QOEnLD7hIj02BVaNOuCIWBKvxcJOt8+TuwJ6zmY1UI5kSv9d99WbiHjTp97wtAUbZQwauU4b9ew=="
+    },
+    "@node-rs/bcrypt-linux-x64-gnu@1.9.0": {
+      "integrity": "sha512-DyyhDHDsLBsCKz1tZ1hLvUZSc1DK0FU0v52jK6IBQxrj24WscSU9zZe7ie/V9kdmA4Ep57BfpWX8Dsa2JxGdgQ=="
+    },
+    "@node-rs/bcrypt-linux-x64-musl@1.9.0": {
+      "integrity": "sha512-duIiuqQ+Lew8ASSAYm6ZRqcmfBGWwsi81XLUwz86a2HR7Qv6V4yc3ZAUQovAikhjCsIqe8C11JlAZSK6+PlXYg=="
+    },
+    "@node-rs/bcrypt-wasm32-wasi@1.9.0": {
+      "integrity": "sha512-ylaGmn9Wjwv/D5lxtawttx3H6Uu2WTTR7lWlRHGT6Ga/MB1Vj4OjSGUW8G8zIVnKuXpGbZ92pgHlt4HUpSLctw==",
+      "dependencies": [
+        "@emnapi/core",
+        "@emnapi/runtime",
+        "@tybys/wasm-util",
+        "memfs-browser"
+      ]
+    },
+    "@node-rs/bcrypt-win32-arm64-msvc@1.9.0": {
+      "integrity": "sha512-2h86gF7QFyEzODuDFml/Dp1MSJoZjxJ4yyT2Erf4NkwsiA5MqowUhUsorRwZhX6+2CtlGa7orbwi13AKMsYndw=="
+    },
+    "@node-rs/bcrypt-win32-ia32-msvc@1.9.0": {
+      "integrity": "sha512-kqxalCvhs4FkN0+gWWfa4Bdy2NQAkfiqq/CEf6mNXC13RSV673Ev9V8sRlQyNpCHCNkeXfOT9pgoBdJmMs9muA=="
+    },
+    "@node-rs/bcrypt-win32-x64-msvc@1.9.0": {
+      "integrity": "sha512-2y0Tuo6ZAT2Cz8V7DHulSlv1Bip3zbzeXyeur+uR25IRNYXKvI/P99Zl85Fbuu/zzYAZRLLlGTRe6/9IHofe/w=="
+    },
+    "@node-rs/bcrypt@1.9.0": {
+      "integrity": "sha512-u2OlIxW264bFUfvbFqDz9HZKFjwe8FHFtn7T/U8mYjPZ7DWYpbUB+/dkW/QgYfMSfR0ejkyuWaBBe0coW7/7ig==",
+      "dependencies": [
+        "@node-rs/bcrypt-android-arm-eabi",
+        "@node-rs/bcrypt-android-arm64",
+        "@node-rs/bcrypt-darwin-arm64",
+        "@node-rs/bcrypt-darwin-x64",
+        "@node-rs/bcrypt-freebsd-x64",
+        "@node-rs/bcrypt-linux-arm-gnueabihf",
+        "@node-rs/bcrypt-linux-arm64-gnu",
+        "@node-rs/bcrypt-linux-arm64-musl",
+        "@node-rs/bcrypt-linux-x64-gnu",
+        "@node-rs/bcrypt-linux-x64-musl",
+        "@node-rs/bcrypt-wasm32-wasi",
+        "@node-rs/bcrypt-win32-arm64-msvc",
+        "@node-rs/bcrypt-win32-ia32-msvc",
+        "@node-rs/bcrypt-win32-x64-msvc"
+      ]
+    },
+    "@scalar/hono-api-reference@0.5.164_hono@4.6.13": {
+      "integrity": "sha512-6m8IscA2+5nqnN8sR5Iib2lboXIawJrScZ0cwVUvQ/uUCrFCyuZGRWXpecuCxelXifDlQxfi0iCfmxgvTiswNg==",
+      "dependencies": [
+        "@scalar/types",
+        "hono"
+      ]
+    },
+    "@scalar/openapi-types@0.1.5": {
+      "integrity": "sha512-6geH9ehvQ/sG/xUyy3e0lyOw3BaY5s6nn22wHjEJhcobdmWyFER0O6m7AU0ZN4QTjle/gYvFJOjj552l/rsNSw=="
+    },
+    "@scalar/types@0.0.24": {
+      "integrity": "sha512-ahMb4WYFx9OP32r7j8KhyMzg5zU78gnKxhDNapuC8WMzlSyyOsX5LQLx8sUQJfw3ZvUHp+F2zv5GJSHD+hdIiA==",
+      "dependencies": [
+        "@scalar/openapi-types",
+        "@unhead/schema"
+      ]
+    },
+    "@tybys/wasm-util@0.8.3": {
+      "integrity": "sha512-Z96T/L6dUFFxgFJ+pQtkPpne9q7i6kIPYCFnQBHSgSPV9idTsKfIhCss0h5iM9irweZCatkrdeP8yi5uM1eX6Q==",
+      "dependencies": [
+        "tslib"
+      ]
+    },
+    "@unhead/schema@1.11.14": {
+      "integrity": "sha512-V9W9u5tF1/+TiLqxu+Qvh1ShoMDkPEwHoEo4DKdDG6ko7YlbzFfDxV6el9JwCren45U/4Vy/4Xi7j8OH02wsiA==",
+      "dependencies": [
+        "hookable",
+        "zhead"
+      ]
+    },
+    "fs-monkey@1.0.6": {
+      "integrity": "sha512-b1FMfwetIKymC0eioW7mTywihSQE4oLzQn1dB6rZB5fx/3NpNEdAWeCSMB+60/AeT0TCXsxzAlcYVEFCTAksWg=="
+    },
+    "hono@4.6.13": {
+      "integrity": "sha512-haV0gaMdSjy9URCRN9hxBPlqHa7fMm/T72kAImIxvw4eQLbNz1rgjN4hHElLJSieDiNuiIAXC//cC6YGz2KCbg=="
+    },
+    "hookable@5.5.3": {
+      "integrity": "sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ=="
+    },
+    "memfs-browser@3.5.10302": {
+      "integrity": "sha512-JJTc/nh3ig05O0gBBGZjTCPOyydaTxNF0uHYBrcc1gHNnO+KIHIvo0Y1FKCJsaei6FCl8C6xfQomXqu+cuzkIw==",
+      "dependencies": [
+        "memfs"
+      ]
+    },
+    "memfs@3.5.3": {
+      "integrity": "sha512-UERzLsxzllchadvbPs5aolHh65ISpKpM+ccLbOJ8/vvpBKmAWf+la7dXFy7Mr0ySHbdHrFv5kGFCUHHe6GFEmw==",
+      "dependencies": [
+        "fs-monkey"
+      ]
+    },
+    "openapi3-ts@4.4.0": {
+      "integrity": "sha512-9asTNB9IkKEzWMcHmVZE7Ts3kC9G7AFHfs8i7caD8HbI76gEjdkId4z/AkP83xdZsH7PLAnnbl47qZkXuxpArw==",
+      "dependencies": [
+        "yaml"
+      ]
+    },
+    "oslo@1.2.1": {
+      "integrity": "sha512-HfIhB5ruTdQv0XX2XlncWQiJ5SIHZ7NHZhVyHth0CSZ/xzge00etRyYy/3wp/Dsu+PkxMC+6+B2lS/GcKoewkA==",
+      "dependencies": [
+        "@node-rs/argon2",
+        "@node-rs/bcrypt"
+      ]
+    },
+    "tslib@2.8.1": {
+      "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="
+    },
+    "yaml@2.6.1": {
+      "integrity": "sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg=="
+    },
+    "zhead@2.2.4": {
+      "integrity": "sha512-8F0OI5dpWIA5IGG5NHUg9staDwz/ZPxZtvGVf01j7vHqSyZ0raHY+78atOVxRqb73AotX22uV1pXt3gYSstGag=="
+    },
+    "zod@3.23.8": {
+      "integrity": "sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.6.13",
+      "jsr:@std/assert@1",
+      "npm:@hono/zod-openapi@~0.18.3",
+      "npm:@scalar/hono-api-reference@~0.5.164",
+      "npm:oslo@^1.2.1"
+    ]
+  }
+}
