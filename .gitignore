@@ -87,3 +87,8 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Database
+kv.db
+kv.db-shm
+kv.db-wal

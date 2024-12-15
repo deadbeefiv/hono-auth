@@ -1,12 +1,14 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch main.ts",
+    "start": "deno run --allow-read --allow-write --allow-net --unstable-kv --allow-ffi --allow-env main.ts"
   },
   "imports": {
-    "@hono/hono": "jsr:@hono/hono@^4.6.13",
     "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.18.3",
     "@scalar/hono-api-reference": "npm:@scalar/hono-api-reference@^0.5.164",
     "@std/assert": "jsr:@std/assert@1",
-    "oslo": "npm:oslo@^1.2.1"
+    "hono": "npm:hono@^4.6.13",
+    "oslo": "npm:oslo@^1.2.1",
+    "ulid": "npm:ulid@^2.3.0"
   }
 }
