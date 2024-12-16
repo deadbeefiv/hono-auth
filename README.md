@@ -17,6 +17,12 @@
 - Swagger UI (Scalar)
 - Zod (Data Validation)
 
+## Roadmap
+- [x] Run with Deno using Deno.Kv
+- [] Separate middleware
+- [] Role-based Access Control
+- [] Add Oauth
+
 ## Endpoints
 
 | Endpoint            | Method | Description          |
