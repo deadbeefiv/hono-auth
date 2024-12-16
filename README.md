@@ -19,9 +19,9 @@
 
 ## Roadmap
 - [x] Run with Deno using Deno.Kv
-- [] Separate middleware
-- [] Role-based Access Control
-- [] Add Oauth
+- [ ] Separate middleware
+- [ ] Role-based Access Control
+- [ ] Add Oauth
 
 ## Endpoints
 
